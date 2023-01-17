@@ -1,0 +1,43 @@
+.detail__title {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  font-size: 50px;
+  color: white;
+  text-shadow: black 0 0 10px;
+}
+
+.detail__date {
+  position: absolute;
+  top: 30%;
+  left: 21%;
+  color: white;
+  text-shadow: black 0 0 10px;
+}
+
+.detail__overview {
+  position: absolute;
+  top: 35%;
+  left: 21%;
+  color: white;
+  text-shadow: black 0 0 10px;
+  width: 60%;
+}
+
+@media screen and (max-width: 950px) {
+  .detail__overview {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .detail__date {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 436px) {
+  .detail__title {
+    display: none;
+  }
+}
