@@ -1,3 +1,3 @@
 ## Overview
 
-![Main Page](./main.jpg)
+![Main Page](./img/main.jpg)
